@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun With Triangles</title>
-    <meta name="author" content="Ankita Bagale">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>triangle stuff!</title>
     
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="verticalMiddle">
         <section class="section">
             <div class="backCTAContainer">
-                <i class="fas fa-chevron-left"></i><a href="/index.html">Go Back</a>
+                <i class="fas fa-chevron-left"></i><a href="/index.html"> < go back</a>
             </div>
-            <h1>Calculate Area</h1>
-            <h3>Select an option below as per the data you have for a triangle</h3>
+            <h1>calculate area</h1>
+            <h3>select an option below as per your choice : </h3>
 
             <!-- select option to calculate area -->
             <form class="formulaSelectionForm">
                 <div class="radio">
                     <label class="label" for="calArea1">
                     <input type="radio" id="calArea1" name="areaCalOption" value="areaCalOption1">
-                    If you have base and height length</label>
+                    If you have length of base and height</label>
                 </div>
                 <div class="radio">
                     <label class="label" for="calArea2">
@@ -37,7 +34,7 @@
                 <div class="radio">
                     <label class="label" for="calArea3">
                     <input type="radio" id="calArea3" name="areaCalOption" value="areaCalOption3">
-                    If you have length of 2 sides and included angle</label>
+                    If you have length of 2 sides and their included angle</label>
                 </div>
             </form>
 
@@ -135,7 +132,7 @@
 
                     <button class="button" id="submitBtn">calculate</button>
                 </form>
-                <h2>Area will be calculated here-</h2>
+                <h2>area will be here!-</h2>
                 <div class="outputHere">
                     <label class="label">Area=</label>
                     <div style="display:inline;" class="areaShowHere">1/2*b*c*sin(A)</div>
@@ -145,34 +142,6 @@
 
         </section>
     </div>
-    
-    
-    
-    
-    <footer id="footer">
-        <ul class="footer-list">
-            <li class="list-item"><a target="_blank" href="mailto:manali.bagale@gmail.com" class="footer-links">
-                <i class="fa fa-envelope" aria-hidden="true"></i></a>
-            </li>
-            <li class="list-item"><a target="_blank" href="https://github.com/AnkitaBagale">
-                <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/ankita-bagale1108">
-                <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-            <li class="list-item"><a target="_blank" href="https://twitter.com/AnkitaB1108">
-                <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="list-item"><a target="_blank" href="https://ankitabagale-portfolio.netlify.app/">
-                <i class="fas fa-briefcase"></i>
-                </a>
-            </li>
-            
-        </ul>
-    </footer>
 
     <script src="calArea.js"></script>
 
